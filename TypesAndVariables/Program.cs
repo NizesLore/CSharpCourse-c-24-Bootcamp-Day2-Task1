@@ -4,10 +4,10 @@ number13 = 'A';
 //number13 = "A";
 Console.WriteLine("Number13 is :{0}", number13);
 
-double number11 = 10.4;                // Bellekte 64 bit lik veri tutar. Ondalık sayılar 
+double number11 = 10.4;                // Bellekte 64 bit lik veri tutar. Ondalık sayılar , den sonra 15 16 character tutabilir
 Console.WriteLine("Number11 is :{0}",number11);
 
-decimal number12 =10.4M;
+decimal number12 =10.4M;              // , den sonra 28 29 character tutabilir.En sağa m / M yazılmalı
 Console.WriteLine("Number12 is : {0}", number12);
 
 char character = 'A';                  //Tek tırnak kullanılır
