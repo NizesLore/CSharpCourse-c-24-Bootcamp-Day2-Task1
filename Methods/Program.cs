@@ -55,3 +55,28 @@ int Add5(out int number3, int number4)
     number3 = 70;
     return number3 + number4;
 }
+
+//Method overloading 
+
+Console.WriteLine(Multiply(2, 82));
+//Console.WriteLine(Multiply(2,1, 82));
+
+static int Multiply(int number1, int number3)
+{
+    return number1 * number3;
+}
+//static int Multiply(int number1, int number3, int number4)
+//{
+//    return number1 * number3 * number4;
+//}
+
+
+//Params keyword
+int Add6(params int[] numbers)
+{
+    return numbers.Sum();
+}
+Console.WriteLine(Add6(1,2,3,4,5,6));
+
+
+
