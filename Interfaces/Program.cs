@@ -1,9 +1,24 @@
-﻿using System.Threading.Channels;
+﻿using Interfaces;
+using System.Threading.Channels;
+
 
 //InterfacesIntro();
 
+//IPerson person1=new Worker();
 
-IPerson person1=new Worker();
+//Demo();
+ICustomerDal[] customerDals = new ICustomerDal[3] {
+    new OracleCustomerDal(),
+    new SqlServerCustomerDal(),
+    new MySqlCustomerDal()};
+
+foreach (var customerDal in customerDals)
+{
+    customerDal.Add();
+}
+
+
+
 
 Console.ReadLine();
 
@@ -31,6 +46,13 @@ static void InterfacesIntro()
 
     personManager.Add(customer);
     personManager.Add(student);
+}
+
+static void Demo()
+{
+    CustomerManager customerManager = new CustomerManager();
+    customerManager.Add(new SqlServerCustomerDal());
+    customerManager.Add(new OracleCustomerDal());
 }
 
 interface IPerson

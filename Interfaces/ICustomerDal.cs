@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Interfaces;
 
-public interface ICustomerDal
+ interface ICustomerDal
 {
     void Add();
     void Update();
@@ -14,7 +14,7 @@ public interface ICustomerDal
 }
 
 
-class SqlServerCustomerDal() : ICustomerDal
+ public class SqlServerCustomerDal() : ICustomerDal
 {
     public void Add()
     {
@@ -32,7 +32,7 @@ class SqlServerCustomerDal() : ICustomerDal
     }
 }
 
-class OracleCustomerDal() : ICustomerDal
+public class OracleCustomerDal() : ICustomerDal
 {
     public void Add()
     {
@@ -48,13 +48,23 @@ class OracleCustomerDal() : ICustomerDal
     {
         Console.WriteLine("Oracle updated!");
     }
-
-
-    class CustomerManager()
+}
+public class MySqlCustomerDal() : ICustomerDal
+{
+    public void Add()
     {
-        public void Add(ICustomerDal customerDal)
-        {
-            customerDal.Add();
-        }
+        Console.WriteLine("MySql added!");
+    }
+
+    public void Delete()
+    {
+        Console.WriteLine("MySql deleted!");
+    }
+
+    public void Update()
+    {
+        Console.WriteLine("MySql updated!");
     }
 }
+
+
