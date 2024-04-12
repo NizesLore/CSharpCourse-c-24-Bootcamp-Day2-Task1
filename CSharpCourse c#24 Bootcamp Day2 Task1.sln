@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecapDemo1", "RecapDemo1\Re
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{692D2844-DA3E-4ED2-B7D3-ADA1C72DA1E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesDemo", "InterfacesDemo\InterfacesDemo.csproj", "{D90B6834-CCFF-4C08-935E-65064D6C04B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacesDemo", "InterfacesDemo\InterfacesDemo.csproj", "{D90B6834-CCFF-4C08-935E-65064D6C04B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{B1ACF50D-AD45-41A1-B8C8-35B759F79BB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{B1ACF50D-AD45-41A1-B8C8-35B759F79BB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceTypes Day2 Task2", "ReferenceTypes Day2 Task2\ReferenceTypes Day2 Task2.csproj", "{17EA14DC-EF01-4E6A-8B59-AAF51D67120C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{B1ACF50D-AD45-41A1-B8C8-35B759F79BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1ACF50D-AD45-41A1-B8C8-35B759F79BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1ACF50D-AD45-41A1-B8C8-35B759F79BB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17EA14DC-EF01-4E6A-8B59-AAF51D67120C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17EA14DC-EF01-4E6A-8B59-AAF51D67120C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17EA14DC-EF01-4E6A-8B59-AAF51D67120C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17EA14DC-EF01-4E6A-8B59-AAF51D67120C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
