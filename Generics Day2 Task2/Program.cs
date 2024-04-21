@@ -33,7 +33,7 @@ class MyList<T>       //Generic class
         }                                        //O yüzden _array in i nci elemanı eşittir _tempArray in i nci elemanı
 
         _array[_array.Length - 1] = item;        //_array in son elemanı nedir? _array.Length-1
-
+                                                 //_array in son elemanı =Sizin gönderdiğiniz item
     }
     public int Count
     {
