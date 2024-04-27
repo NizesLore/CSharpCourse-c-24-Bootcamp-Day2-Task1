@@ -12,7 +12,7 @@ List<Product> products = new List<Product>
     new Product{ ProductId=4,CategoryId=2, ProductName="Samsung Laptop",QuantityPerUnit="4 GB Ram", UnitPrice=5000,UnitsInStock=15},
     new Product{ ProductId=5,CategoryId=2, ProductName="Apple Laptop",QuantityPerUnit="4 GB Ram", UnitPrice=8000,UnitsInStock=0}
 };
-Console.WriteLine("Algorithmic...................");
+Console.WriteLine("Algorithmic..................."); 
 foreach (var product in products)
 {
     if (product.UnitPrice > 5000 && product.UnitsInStock > 3)
