@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReferenceTypes Day2 Task2",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructors Day2 Task2", "Constructors Day2 Task2\Constructors Day2 Task2.csproj", "{A4352533-231B-4804-BA2F-DBB00C2A106F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics Day2 Task2", "Generics Day2 Task2\Generics Day2 Task2.csproj", "{D4726BC3-5BC8-4F74-A2DE-893719ABCCF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics Day2 Task2", "Generics Day2 Task2\Generics Day2 Task2.csproj", "{D4726BC3-5BC8-4F74-A2DE-893719ABCCF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadingDemo", "ThreadingDemo\ThreadingDemo.csproj", "{0C279852-8CFE-46F3-AA67-5667D48D3882}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{D4726BC3-5BC8-4F74-A2DE-893719ABCCF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4726BC3-5BC8-4F74-A2DE-893719ABCCF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4726BC3-5BC8-4F74-A2DE-893719ABCCF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C279852-8CFE-46F3-AA67-5667D48D3882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C279852-8CFE-46F3-AA67-5667D48D3882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C279852-8CFE-46F3-AA67-5667D48D3882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C279852-8CFE-46F3-AA67-5667D48D3882}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
